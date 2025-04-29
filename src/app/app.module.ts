@@ -9,6 +9,7 @@ import { InfoCentroComponent } from './components/dashboard/info-centro/info-cen
 import { InfoFormacionComponent } from './components/dashboard/info-formacion/info-formacion.component';
 import { InfoCursoComponent } from './components/dashboard/info-curso/info-curso.component';
 import { InfoEducadorComponent } from './components/dashboard/info-educador/info-educador.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InfoEducadorComponent } from './components/dashboard/info-educador/info
     InfoCentroComponent,
     InfoFormacionComponent,
     InfoCursoComponent,
-    InfoEducadorComponent
+    InfoEducadorComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

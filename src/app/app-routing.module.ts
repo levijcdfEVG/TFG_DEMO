@@ -19,6 +19,14 @@ const routes: Routes = [
   {
     path: "info-educadores",
     component: InfoFormacionComponent
+  },
+  {
+    path: "",
+    component: InfoCentroComponent
+  },
+  {
+    path: '**',
+    redirectTo: '/info-centros'
   }
 ];
 
