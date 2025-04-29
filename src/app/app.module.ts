@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { TemplateComponent } from './components/template/template.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { InfoCentroComponent } from './components/dashboard/info-centro/info-centro.component';
+import { InfoFormacionComponent } from './components/dashboard/info-formacion/info-formacion.component';
+import { InfoCursoComponent } from './components/dashboard/info-curso/info-curso.component';
+import { InfoEducadorComponent } from './components/dashboard/info-educador/info-educador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TemplateComponent,
     HeaderComponent,
-    InfoCentroComponent
+    InfoCentroComponent,
+    InfoFormacionComponent,
+    InfoCursoComponent,
+    InfoEducadorComponent
   ],
   imports: [
     BrowserModule,
